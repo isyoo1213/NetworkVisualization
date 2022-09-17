@@ -1,0 +1,211 @@
+{
+  "nodes": [
+    {
+      "id": "fashion, style, trend",
+      "type": "Category",
+      "label": "문장의 종류",
+      "size": 10,
+      "level": 1
+    },
+    {
+      "id": "fashion, style, trend",
+      "type": "Category",
+      "label": "fashion, style, trend",
+      "size": 10,
+      "level": 1
+    },
+    { "id": "1", "label": "Trousers" },
+    { "id": "2", "label": "Jewellery" },
+    { "id": "3", "label": "nightwear" },
+
+    {
+      "id": "hoodie, wallet, jacket",
+      "type": "Category",
+      "label": "hoodie, wallet, jacket"
+    },
+    { "id": "Hoodie" },
+    { "id": "wallet" },
+    { "id": "Jacketing" },
+    { "id": "Jacket" },
+
+    {
+      "id": "shoes, handbags, dresses",
+      "type": "Category",
+      "label": "shoes, handbags, dresses"
+    },
+    { "id": "Shoes" },
+    { "id": "Handbags" },
+    { "id": "Dresses" },
+    { "id": "Leggings" },
+    { "id": "Shoes Passion" },
+    { "id": "Shirts" },
+    { "id": "Jeans" },
+    { "id": "Anarkali Salwar Suit" },
+
+    {
+      "id": "footwear, news, pediped",
+      "type": "Category",
+      "label": "footwear, news, pediped"
+    },
+    { "id": "Footwear" },
+    { "id": "Footwear News" },
+    { "id": "pediped Footwear" },
+    { "id": "Outerwear" },
+    { "id": "Eyewear" },
+    {
+      "id": "fashion, street, ladies",
+      "type": "Category",
+      "label": "fashion, street, ladies"
+    },
+    { "id": "Street fashion" },
+    { "id": "Ladies fashion" },
+    { "id": "Haute couture" },
+    { "id": "Hip hop fashion" },
+    { "id": "Fashion week" },
+    { "id": "Fashion show" },
+    { "id": "Fashion blog" },
+    { "id": "bugatti fashion" },
+    {
+      "id": "dress, shirt, formal",
+      "type": "Category",
+      "label": "dress, shirt, formal"
+    },
+    { "id": "Dress shirt" },
+    { "id": "Formal wear" },
+    { "id": "Tshirt" },
+    { "id": "Party dress" },
+
+    {
+      "id": "trousers, jewellery, nightwear",
+      "type": "Category",
+      "label": "trousers, jewellery, nightwear"
+    },
+    { "id": "Trousers" },
+    { "id": "Jewellery" },
+    { "id": "Nightwear" },
+    { "id": "Boots UK" }
+  ],
+  "links": [
+    {
+      "source": "fashion, style, trend",
+      "target": "1",
+      "distance": 10,
+      "width": 0.5,
+      "color": "#f00"
+    },
+    {
+      "source": "fashion, style, trend",
+      "target": "2",
+      "distance": 10,
+      "width": 0.5,
+      "color": "#f00"
+    },
+    {
+      "source": "fashion, style, trend",
+      "target": "3",
+      "distance": 10,
+      "width": 0.5,
+      "color": "#f00"
+    },
+    {
+      "source": "hoodie, wallet, jacket",
+      "target": "fashion, style, trend",
+      "width": 0.5,
+      "distance": 10,
+      "color": "#469CEC"
+    },
+    {
+      "source": "hoodie, wallet, jacket",
+      "target": "Hoodie",
+      "width": 1,
+      "color": "#B7DCFF"
+    },
+    { "source": "hoodie, wallet, jacket", "target": "Hoodie" },
+    { "source": "hoodie, wallet, jacket", "target": "wallet" },
+    { "source": "hoodie, wallet, jacket", "target": "Jacketing" },
+    { "source": "hoodie, wallet, jacket", "target": "Jacket" },
+    {
+      "source": "shoes, handbags, dresses",
+      "target": "shoes, handbags, dresses",
+
+      "width": 0.5,
+      "color": "#469CEC"
+    },
+    {
+      "source": "shoes, handbags, dresses",
+      "target": "fashion, style, trend",
+      "width": 0.5,
+      "color": "#469CEC"
+    },
+    { "source": "shoes, handbags, dresses", "target": "Shoes" },
+    { "source": "shoes, handbags, dresses", "target": "Handbags" },
+    { "source": "shoes, handbags, dresses", "target": "Dresses" },
+    { "source": "shoes, handbags, dresses", "target": "Leggings" },
+    { "source": "shoes, handbags, dresses", "target": "Leggings" },
+    { "source": "shoes, handbags, dresses", "target": "Shoes Passion" },
+    { "source": "shoes, handbags, dresses", "target": "Shirts" },
+    { "source": "shoes, handbags, dresses", "target": "Jeans" },
+    { "source": "shoes, handbags, dresses", "target": "Anarkali Salwar Suit" },
+    {
+      "source": "footwear, news, pediped",
+      "target": "footwear, news, pediped"
+    },
+    {
+      "source": "footwear, news, pediped",
+      "target": "shoes, handbags, dresses",
+      "width": 0.5,
+      "color": "#469CEC"
+    },
+    { "source": "footwear, news, pediped", "target": "Footwear" },
+    { "source": "footwear, news, pediped", "target": "Footwear" },
+    { "source": "footwear, news, pediped", "target": "Footwear News" },
+    { "source": "footwear, news, pediped", "target": "pediped Footwear" },
+    { "source": "footwear, news, pediped", "target": "Outerwear" },
+    { "source": "footwear, news, pediped", "target": "Eyewear" },
+    {
+      "source": "fashion, street, ladies",
+      "target": "fashion, street, ladies"
+    },
+    {
+      "source": "fashion, street, ladies",
+      "target": "fashion, style, trend",
+      "width": 0.5,
+      "color": "#469CEC"
+    },
+    { "source": "fashion, street, ladies", "target": "Street fashion" },
+    { "source": "fashion, street, ladies", "target": "Street fashion" },
+    { "source": "fashion, street, ladies", "target": "Ladies fashion" },
+    { "source": "fashion, street, ladies", "target": "Haute couture" },
+    { "source": "fashion, street, ladies", "target": "Hip hop fashion" },
+    { "source": "fashion, street, ladies", "target": "Fashion week" },
+    { "source": "fashion, street, ladies", "target": "Fashion show" },
+    { "source": "fashion, street, ladies", "target": "Fashion blog" },
+    { "source": "fashion, street, ladies", "target": "bugatti fashion" },
+    { "source": "dress, shirt, formal", "target": "dress, shirt, formal" },
+    {
+      "source": "dress, shirt, formal",
+      "target": "fashion, style, trend",
+      "width": 0.5,
+      "color": "#469CEC"
+    },
+    { "source": "dress, shirt, formal", "target": "Dress shirt" },
+    { "source": "dress, shirt, formal", "target": "Dress shirt" },
+    { "source": "dress, shirt, formal", "target": "Formal wear" },
+    { "source": "dress, shirt, formal", "target": "Tshirt" },
+    { "source": "dress, shirt, formal", "target": "Party dress" },
+    {
+      "source": "trousers, jewellery, nightwear",
+      "target": "trousers, jewellery, nightwear"
+    },
+    {
+      "source": "trousers, jewellery, nightwear",
+      "target": "fashion, style, trend",
+      "width": 0.5,
+      "color": "#469CEC"
+    },
+    { "source": "trousers, jewellery, nightwear", "target": "Trousers" },
+    { "source": "trousers, jewellery, nightwear", "target": "Jewellery" },
+    { "source": "trousers, jewellery, nightwear", "target": "Nightwear" },
+    { "source": "trousers, jewellery, nightwear", "target": "Boots UK" }
+  ]
+}
